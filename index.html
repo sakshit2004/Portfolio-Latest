@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- --------- UNICONS ---------- -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <!-- --------- CSS ---------- -->
+    <link rel="stylesheet" href="Style.css">
+
+    <!-- --------- FAVICON ---------- -->
+    <link rel="shortcut icon" href="SakshitPP.jpg" type="image/x-icon">
+
+    <title>Portfolio | Sakshit</title>
+</head>
+<body>
+   <div class="container">
+    <!-- --------------- HEADER --------------- -->
+      <nav id="header">
+        <div class="nav-logo">
+            <p class="nav-name">Sakshit </p>
+        </div>
+        <div class="nav-menu" id="myNavMenu">
+            <ul class="nav_menu_list">
+                <li class="nav_list">
+                    <a href="#home" class="nav-link active-link">Home</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#about" class="nav-link">About</a>
+                    <div class="circle"></div>
+                </li>
+            </li>
+            <li class="nav_list">
+                <a href="#projects" class="nav-link">Projects</a>
+                <div class="circle"></div>
+            </li>
+            <li class="nav_list">
+                <a href="#contact" class="nav-link">Contact</a>
+                <div class="circle"></div>
+            </li>
+            </ul>
+        </div>
+        <div class="nav-button">
+          <button class="btn"
+          onclick="window.open('')">Download CV <i class="uil uil-file-alt"></i></button>
+        </div>
+        <div class="nav-menu-btn">
+            <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+        </div>
+      </nav>
+
+
+    <!-- -------------- MAIN ---------------- -->
+    <main class="wrapper">
+       <!-- -------------- FEATURED BOX ---------------- -->
+       <section class="featured-box" id="home">
+          <div class="featured-text">
+            <div class="featured-text-card">
+                <span>Sakshit Sharma</span>
+            </div>
+            <div class="featured-name">
+                <p>I am <span class="typedText"></span></p>
+            </div>
+            <div class="featured-text-info">
+                <p> Data engineer co-op@ City of ottawa.
+                    <br>Software Engineer Fellow @ HeadStarter AI.
+                </p>
+            </div>
+            <div class="featured-text-btn">
+                <button class="btn blue-btn"
+                 onclick="window.open('https://www.linkedin.com/in/sakshitsharma/', '_blank')">My linkedin<i class="uil uil-linkedin-alt"></i></button>
+                 <button class="btn blue-btn"
+                 onclick="window.open('https://github.com/sakshit2004', '_blank')">My Github <i class="uil uil-github-alt"></i></button>
+            </div>
+            <div class="social_icons">
+                <div class="icon"><a href="mailto:shar0771@algonquinlive.com"><i class="uil uil-envelope"></i></a></div>
+                <div class="icon"><a href="https://www.linkedin.com/in/sakshitsharma/" target="_blank"><i class="uil uil-linkedin-alt"></i></a></div>
+                <div class="icon"><a href="https://www.hackerrank.com/profile/sakshit2004" target="_blank"><i class="uil uil-dribbble"></i></a></div>
+                <div class="icon"><a href="https://github.com/sakshit2004" target="_blank"><i class="uil uil-github-alt"></i></a></div>
+            </div>
+          </div>
+          <div class="featured-image">
+            <div class="image">
+                <img src="SakshitPP.jpg" alt="avatar">
+            </div>
+        </div>
+       </section>
+       <!-- -------------- ABOUT BOX ---------------- -->
+       <section class="section" id="about">
+          <div class="top-header">
+            <h1>About Me</h1>
+          </div>
+          <div class="row">
+            <div class="col">
+                <div class="about-info">
+                    <h3>My introduction</h3>
+                    <p> I am currently a Data Engineer with City of Ottawa and also a Software Engineer fellow at HeadStarter AI
+              
+                    </p>
+                    <div class="about-btn">
+                        <button class="btn" onclick="window.open('https://github.com/sakshit2004/Portfolio/blob/main/Sakshit_Sharma_resume.pdf', '_blank')">My Resume </a><i class="uil uil-import"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3>Data Engineering</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span>ETL/ELT</span>
+                        <span>DATA PIPELINES</span>
+                        <span>DATA ANALYSIS</span>
+                    </div>
+                </div>
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3>Cloud</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span>Azure</span>
+                        <span>AWS</span>
+                        <span>GCP</span>
+
+                    </div>
+                </div>
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3>Programming</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span>Python</span>
+                        <span>Java</span>
+                        <span>JavaScript</span>
+                        <span>HTML/CSS</span>
+                    </div>
+
+                </div>
+            </div>
+          </div>
+       </section>
+              <!-- -------------- PROJECT BOX ---------------- -->
+              <section id="projects">
+                <p class="section__text__p1">Browse My Recent</p>
+                <h1 class="title">Projects</h1>
+                <div class="experience-details-container">
+                  <div class="about-containers">
+                    <div class="details-container color-container">
+                      <div class="article-container">
+                      </div>
+                      <h3 class="experience-sub-title project-title">Full-Stack Ecommerce Website</h3>
+                      <div class="btn-container">
+                        <button
+                          class="btn btn-color-2 project-btn"
+                          onclick="window.open('https://github.com/sakshit2004/FullStack-Ecommerce-Website', '_blank')"
+                        >
+                          Github
+                        </button>
+                        <button
+                          class="btn btn-color-2 project-btn"
+                          onclick="window.open('https://youtu.be/-TS3AbZAUC4?si=TZMyDOh3xXWPUdKy','_blank')"
+                        >
+                          Live Demo
+                        </button>
+                      </div>
+                    </div>
+                    <div class="details-container color-container">
+                      <div class="article-container">
+                      </div>
+                      <h3 class="experience-sub-title project-title">Banking Management System</h3>
+                      <div class="btn-container">
+                        <button
+                          class="btn btn-color-2 project-btn"
+                          onclick="window.open('https://github.com/sakshit2004/Banking-Management-System','_blank')"
+                        >
+                          Github
+                        </button>
+                        <button
+                          class="btn btn-color-2 project-btn"
+                          onclick="window.open('https://github.com/sakshit2004/Banking-Management-System','_blank')"
+
+                        >
+                          Live Demo
+                        </button>
+                      </div>
+                    </div>
+                    <div class="details-container color-container">
+                      <div class="article-container">
+                      </div>
+                      <h3 class="experience-sub-title project-title">Spotify Database Management</h3>
+                      <div class="btn-container">
+                        <button
+                          class="btn btn-color-2 project-btn"
+                          onclick="window.open('https://github.com/sakshit2004/Spotify-Database-Management','_blank')"
+
+                        >
+                          Github
+                        </button>
+                        <button
+                          class="btn btn-color-2 project-btn"
+                          onclick="window.open('https://youtu.be/_8I1u9bpGm8?si=iy3he09sY0FWymPC','_blank')"
+                        >
+                          Live Demo
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+<!-- -------------- CONTACT BOX ---------------- -->
+<section class="section" id="contact">
+  <div class="top-header">
+    <h1>Let's Get in touch</h1>
+    <span>
+      Actively looking for Entry level roles. Open to all opportunities for computer Science and Data engineering.
+    </span>
+  </div>
+  <div class="row">
+    <div class="col">
+      <div class="contact-info">
+        <h2>Find Me <i class="uil uil-corner-right-down"></i></h2>
+        <p><i class="uil uil-envelope"></i> Email: shar0771@algonquinlive.com</p>
+        <p><i class="uil uil-phone"></i> Tel: +1 (226)961-8315</p>
+      </div>
+    </div>
+    <div class="col">
+      <div class="form-control">
+        <form onsubmit="return submitForm()" id="contactForm">
+          <div class="form-inputs">
+            <input type="text" class="input-field" placeholder="Name" required>
+            <input type="email" class="input-field" placeholder="Email" required>
+          </div>
+          <br>
+          <div class="text-area">
+            <textarea placeholder="Message" required></textarea>
+          </div>
+          <div class="form-button">
+            <button type="submit" class="btn">Send <i class="uil uil-message"></i></button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+    <!-- --------------- FOOTER --------------- -->
+    <footer>
+        <div class="top-footer">
+            <p>Sakshit Sharma</p>
+        </div>
+        <div class="middle-footer">
+            <ul class="footer-menu">
+                <li class="footer_menu_list">
+                    <a href="#home">Home</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#about">About</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#projects">Projects</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-social-icons">
+          <div class="icon"><a href="mailto:shar0771@algonquinlive.com"><i class="uil uil-envelope"></i></a></div>
+          <div class="icon"><a href="https://www.linkedin.com/in/sakshitsharma/" target="_blank"><i class="uil uil-linkedin-alt"></i></a></div>
+          <div class="icon"><a href="https://www.hackerrank.com/profile/sakshit2004" target="_blank"><i class="uil uil-dribbble"></i></a></div>
+          <div class="icon"><a href="https://github.com/sakshit2004" target="_blank"><i class="uil uil-github-alt"></i></a></div>
+        </div>
+        <div class="bottom-footer">
+            <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Sakshit Sharma</a> - All rights reserved</p>
+        </div>
+    </footer>
+
+    </div>
+
+
+
+
+    <!-- ----- TYPING JS Link ----- -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+       <!-- ----- SCROLL REVEAL JS Link----- -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- ----- MAIN JS ----- -->
+    <script src="JavaScript.js"></script>
+</body>
+</html>
