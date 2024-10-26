@@ -34,7 +34,7 @@ cd Portfolio-Latest
 # Open in browser
 open index.html
 
-
+```
 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
