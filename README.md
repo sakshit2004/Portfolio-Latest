@@ -1,6 +1,6 @@
 # Sakshit's Portfolio Website
 
-![Portfolio Preview]()
+![Portfolio Preview](https://raw.githubusercontent.com/sakshit2004/Portfolio-Latest/refs/heads/main/SakshitPortfolio.png)
 
 ## 🚀 Demo
 
